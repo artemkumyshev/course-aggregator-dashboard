@@ -1,0 +1,11 @@
+button.button {
+  @apply font-bold py-4 px-8 text-lg uppercase;
+
+  &_primary {
+    @apply bg-green-500 text-white;
+
+    &:hover {
+      @apply bg-green-600;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.heading {
+  @apply font-bold leading-normal text-slate-700;
+
+  &_1 {
+    @apply text-5xl;
+  }
+  &_2 {
+    @apply text-4xl;
+  }
+  &_3 {
+    @apply text-3xl;
+  }
+  &_4 {
+    @apply text-2xl;
+  }
+  &_5 {
+    @apply text-xl;
+  }
+  &_6 {
+    @apply text-lg;
+  }
+}

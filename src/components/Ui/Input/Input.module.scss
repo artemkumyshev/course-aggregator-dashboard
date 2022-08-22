@@ -1,0 +1,23 @@
+.field {
+  @apply flex flex-col gap-2;
+}
+
+.label {
+  @apply text-base font-semibold text-gray-500;
+
+  &_error {
+    @apply text-red-500;
+  }
+}
+
+.input {
+  @apply w-full px-2 py-4 outline-2 outline-green-300 border-2 border-zinc-500 text-base font-light;
+
+  &_error {
+    @apply border-red-500 outline-red-500;
+  }
+}
+
+.error {
+  @apply text-xs text-red-500;
+}
